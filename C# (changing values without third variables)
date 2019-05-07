@@ -8,6 +8,6 @@ using System;
        num1=num1+num2;    
        num2=num1-num2;     
        num1=num1-num2;
-       Console.Write("After swap a= "+a+" b= "+b);
+       Console.Write("After swap num1= "+num1+" num2= "+num2);
       }  
   }  
