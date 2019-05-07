@@ -1,0 +1,13 @@
+using System;
+  public class SwapWithoutThirdVar
+   {
+     public static void Main(string[] args)
+      {
+       int  num1=7, num2=13;
+       Console.WriteLine("Before swap num1= "+num1+" num2= "+num2);
+       num1=num1+num2;    
+       num2=num1-num2;     
+       num1=num1-num2;
+       Console.Write("After swap a= "+a+" b= "+b);
+      }  
+  }  
